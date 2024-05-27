@@ -1,0 +1,72 @@
+
+body {
+  position: absolute;
+          top: 0; bottom: 0; left: 0; right: 0;
+          height: 100vh;
+      margin:0;
+      padding:0;
+      background-size: 100% ;
+      width:100vw;  
+      color:black;
+  }
+  body:before {
+  content: "";
+  position: fixed;
+  height: 100%; width: 100%;
+  background: url('component/bg.jpg');
+  background-size: cover;
+  z-index: -1; /* Keep the background behind the content */     
+  filter: blur(8px);
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+}
+nav{
+  background-color: #ffffff81;
+}
+.cardbanker{
+  background-color: #ffffffbe;
+}
+.alertmessage{
+  height: auto;
+  padding: 12px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 15px;
+}
+.alertbutton{
+  color: red;
+  text-align: center;
+  padding: 0px;
+  padding-top: 0px;
+}
+.alertbtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  color: red;
+  background: red;
+  border: none;
+  padding: 0;
+}
+.salertbtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  color: blue;
+  background: blue;
+  border: none;
+  padding: 0;
+}
+footer{
+  margin-bottom:0px;
+  bottom:0px;
+}
+strong{
+  font-size: 18px;
+}
+.cardbankergood{
+  text-align: center;
+}
